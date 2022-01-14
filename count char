@@ -1,0 +1,16 @@
+package Achievements;
+
+public class CountSpecific_Character {
+
+	public static void main(String[] args) {
+		String s = "java programming is quite logical";
+		int totalcount = s.length();//total length
+		
+		int totalcount_afterremove = s.replace("l", "").length(); // length without character l
+		
+		int count = totalcount - totalcount_afterremove;// subtracting total - without character
+		
+		System.out.println("total no of character is : "+count);// counting the char
+	}
+
+}
